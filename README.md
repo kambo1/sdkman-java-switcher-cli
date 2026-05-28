@@ -2,6 +2,14 @@
 
 `sj` is a small zsh helper for picking Java versions managed by SDKMAN.
 
+## Prerequisites
+
+- zsh
+- SDKMAN installed and initialized at `~/.sdkman/bin/sdkman-init.sh`
+- Java managed through SDKMAN: `sdk install java <version>`
+- Network access for `sj install` / `sj add` when fetching the SDKMAN catalog
+- An interactive terminal for the picker UI
+
 ## Commands
 
 ```sh
