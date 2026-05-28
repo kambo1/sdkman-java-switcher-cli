@@ -2,6 +2,11 @@
 
 `sj` is a small zsh helper for picking Java versions managed by SDKMAN.
 
+It is meant for developers who switch between multiple Java versions and
+distributions often, but do not want to copy exact SDKMAN version identifiers
+like `21.0.11-tem` or `17.0.19-zulu`. It provides a terminal picker for using,
+setting as default, installing, and uninstalling SDKMAN Java versions.
+
 ## Prerequisites
 
 - zsh
